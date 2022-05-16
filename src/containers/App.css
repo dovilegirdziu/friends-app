@@ -1,0 +1,30 @@
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1 {
+	font-family: 'SEGA LOGO FONT';
+	font-weight: 200;
+	color: #594a4e;
+
+
+background: linear-gradient(to left, rgb(190, 230, 243), rgb(228, 134, 134));
+}
+
+/*.end {
+  display: flex;
+  justify-content: flex-end;
+}*/
+
+/*------ Turn it to dark... mode -------*/
+
+.darkMode { 
+   filter: invert(1) hue-rotate(180deg);
+ }
+
+ .invert {
+ 	filter: invert(1) hue-rotate(180deg);
+ }
